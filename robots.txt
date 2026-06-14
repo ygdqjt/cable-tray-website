@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ygdqjt.github.io/cable-tray-website/sitemap.xml
