@@ -58,7 +58,7 @@
       .section .lead,.section-head p,.card p,.faq p,.specs dd { color:var(--muted); }
       .actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:28px; }
       .product-visual { padding:12px; border:1px solid rgba(255,255,255,.16); border-radius:var(--radius); background:rgba(255,255,255,.08); box-shadow:var(--shadow); }
-      .product-visual svg { display:block; width:100%; height:auto; background:#fff; border-radius:4px; }
+      .product-visual img { display:block; width:100%; aspect-ratio:1.38; object-fit:cover; background:#fff; border-radius:4px; }
       .section,.contact { padding:clamp(58px,8vw,104px) clamp(18px,5vw,64px); }
       .section { background:#fff; }
       .section.soft { background:var(--soft); }
@@ -108,10 +108,8 @@
             <a class="btn secondary" href="index.html#products">Back to Products</a>
           </div>
         </div>
-        <div class="product-visual" aria-label="Perforated cable tray illustration">
-          <svg viewBox="0 0 720 520" role="img" aria-label="Perforated galvanized cable tray">
-            <rect width="720" height="520" fill="#f5f8fa"/><path d="M122 284 508 154l84 54-388 146z" fill="#dfe7eb" stroke="#6f7f87" stroke-width="10" stroke-linejoin="round"/><path d="M122 284v86l82 48v-64z" fill="#aebbc1" stroke="#6f7f87" stroke-width="10" stroke-linejoin="round"/><path d="M204 354 592 208v82L204 418z" fill="#8c9aa1" stroke="#6f7f87" stroke-width="10" stroke-linejoin="round"/><g fill="#74848c"><ellipse cx="218" cy="286" rx="24" ry="10" transform="rotate(-18 218 286)"/><ellipse cx="294" cy="260" rx="24" ry="10" transform="rotate(-18 294 260)"/><ellipse cx="370" cy="234" rx="24" ry="10" transform="rotate(-18 370 234)"/><ellipse cx="446" cy="208" rx="24" ry="10" transform="rotate(-18 446 208)"/><ellipse cx="272" cy="318" rx="24" ry="10" transform="rotate(-18 272 318)"/><ellipse cx="348" cy="292" rx="24" ry="10" transform="rotate(-18 348 292)"/><ellipse cx="424" cy="266" rx="24" ry="10" transform="rotate(-18 424 266)"/></g>
-          </svg>
+        <div class="product-visual" aria-label="Perforated cable tray product photo">
+          <img src="assets/product-perforated-tray.jpg" width="1400" height="900" alt="Perforated galvanized cable tray product photo">
         </div>
       </section>
 
